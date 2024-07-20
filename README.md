@@ -46,7 +46,7 @@ cd ~
 mkdir -p ros2_ws/src
 cd ros2_ws
 colcon build
-echo "source ~/ros2_ws/install.setup.bash" >> ~/.bashrc
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 Now you will see `build`, `log` & `devel` folders inside your `ros2_ws` directory.
